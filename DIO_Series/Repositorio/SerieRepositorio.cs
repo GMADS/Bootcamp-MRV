@@ -9,32 +9,32 @@ namespace guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Repositorio
         private List<Serie> listaSerie = new List<Serie>();
         public void Atualizar(int id, Serie entidade)
         {
-            throw new System.NotImplementedException();
+            listaSerie[id] = entidade;
         }
 
         public void Excluir(int id)
         {
-            throw new System.NotImplementedException();
+            listaSerie [id].Exclui();
         }
 
         public void Insere(Serie entidade)
         {
-            throw new System.NotImplementedException();
+            listaSerie.Add(entidade);
         }
 
         public List<Serie> Lista()
         {
-            throw new System.NotImplementedException();
+            return listaSerie;
         }
 
         public int ProximoId()
         {
-            throw new System.NotImplementedException();
+            return listaSerie.Count;
         }
 
         public Serie RetornarPorId(int id)
         {
-            throw new System.NotImplementedException();
+            return listaSerie[id];
         }
     }
 }
