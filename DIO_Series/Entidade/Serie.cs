@@ -44,5 +44,10 @@ namespace guilh.OneDrive.Documentos.BootCamp_MRV.Entidade
         {
             this.Excluido = true;
         }
+
+        public bool retornaExcluido()
+        {
+            return this.Excluido;
+        }
     }
 }

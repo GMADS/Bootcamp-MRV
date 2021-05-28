@@ -1,0 +1,13 @@
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\bin\Debug\netcoreapp3.1\DIO_Series.exe
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\bin\Debug\netcoreapp3.1\DIO_Series.deps.json
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\bin\Debug\netcoreapp3.1\DIO_Series.runtimeconfig.json
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\bin\Debug\netcoreapp3.1\DIO_Series.runtimeconfig.dev.json
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\bin\Debug\netcoreapp3.1\DIO_Series.dll
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\bin\Debug\netcoreapp3.1\DIO_Series.pdb
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\obj\Debug\netcoreapp3.1\DIO_Series.csprojAssemblyReference.cache
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\obj\Debug\netcoreapp3.1\DIO_Series.AssemblyInfoInputs.cache
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\obj\Debug\netcoreapp3.1\DIO_Series.AssemblyInfo.cs
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\obj\Debug\netcoreapp3.1\DIO_Series.csproj.CoreCompileInputs.cache
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\obj\Debug\netcoreapp3.1\DIO_Series.dll
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\obj\Debug\netcoreapp3.1\DIO_Series.pdb
+C:\Users\guilh\OneDrive\Documentos\BootCamp MRV\DIO_Series\obj\Debug\netcoreapp3.1\DIO_Series.genruntimeconfig.cache
