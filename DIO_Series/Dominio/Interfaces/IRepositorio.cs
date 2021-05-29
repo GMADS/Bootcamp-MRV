@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Interfaces
+namespace guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Dominio.Interfaces
 {
     public interface IRepositorio<T>
     {

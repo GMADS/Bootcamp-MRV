@@ -1,4 +1,4 @@
-namespace guilh.OneDrive.Documentos.BootCamp_MRV.Entidade
+namespace guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Entidade
 {
     public abstract class EntidadeModelo
     {

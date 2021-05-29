@@ -1,7 +1,7 @@
 ﻿using System;
 using guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Repositorio;
-using guilh.OneDrive.Documentos.BootCamp_MRV.Entidade;
-using guilh.OneDrive.Documentos.BootCamp_MRV.Enum;
+using guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Entidade;
+using guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Enum;
 
 namespace DIO_Series
 {

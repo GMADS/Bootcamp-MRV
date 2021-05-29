@@ -1,4 +1,4 @@
-namespace guilh.OneDrive.Documentos.BootCamp_MRV.Enum
+namespace guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Enum
 {
     public enum Genero
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
-using guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Interfaces;
-using guilh.OneDrive.Documentos.BootCamp_MRV.Entidade;
+using guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Dominio.Interfaces;
+using guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Entidade;
 
 namespace guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Repositorio
 {

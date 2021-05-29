@@ -1,7 +1,7 @@
 using System;
-using guilh.OneDrive.Documentos.BootCamp_MRV.Enum;
+using guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Enum;
 
-namespace guilh.OneDrive.Documentos.BootCamp_MRV.Entidade
+namespace guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Entidade
 {
     public class Serie: EntidadeModelo
     {
