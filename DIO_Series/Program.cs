@@ -1,5 +1,5 @@
 ﻿using System;
-using guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Repositorio;
+using DIO_Series.Servico;
 using guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Entidade;
 using guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Enum;
 
@@ -7,7 +7,7 @@ namespace DIO_Series
 {
     class Program
     {
-        static SerieRepositorio repositorio = new SerieRepositorio();
+       
         static void Main(string[] args)
         {
             string opcaoUsuario = ObterOpcaoUsuario();
@@ -51,20 +51,15 @@ namespace DIO_Series
             Console.WriteLine("Obrigado por utilizar nossos servicos");
             Console.ReadLine();
         }
-         private static void ExcluirSerie()
+        private static void ExcluirSerie()
 		{
 			Console.Write("Digite o id da série: ");
-			int indiceSerie = int.Parse(Console.ReadLine());
-
-			repositorio.Excluir(indiceSerie);
 		}
 
         private static void VisualizarSerie()
 		{
 			Console.Write("Digite o id da série: ");
 			int indiceSerie = int.Parse(Console.ReadLine());
-
-			var serie = repositorio.RetornarPorId(indiceSerie);
 
 			Console.WriteLine(serie);
 		}
@@ -95,8 +90,6 @@ namespace DIO_Series
 										titulo: entradaTitulo,
 										ano: entradaAno,
 										descricao: entradaDescricao);
-
-			repositorio.Atualizar(indiceSerie, atualizaSerie);
 		}
         private static void ListarSeries()
 		{
