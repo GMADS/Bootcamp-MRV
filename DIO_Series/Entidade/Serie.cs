@@ -24,10 +24,11 @@ namespace guilh.OneDrive.Documentos.BootCamp_MRV.Entidade
         public override string ToString()
         {
             string retorno = "";
-            retorno += "Genero" + this.Genero + Environment.NewLine;
-            retorno += "Titulo" + this.Titulo + Environment.NewLine;
-            retorno += "Descricao" + this.Descricao + Environment.NewLine;
-            retorno += "Ano de Inicio" + this.Ano;
+            retorno += "Genero:" + this.Genero + Environment.NewLine;
+            retorno += "Titulo:" + this.Titulo + Environment.NewLine;
+            retorno += "Descricao:" + this.Descricao + Environment.NewLine;
+            retorno += "Ano de Inicio:" + this.Ano;
+            retorno += "Excluido:" + this.Excluido;
             return retorno;
         }
         public string retornaTitulo()
