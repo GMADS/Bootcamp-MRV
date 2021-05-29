@@ -6,7 +6,7 @@ namespace guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Repositorio
 {
     public class SerieRepositorio : IRepositorio<Serie>
     {
-        private List<Serie> listaSerie = new List<Serie>();
+        public List<Serie> listaSerie = new List<Serie>();
         public void Atualizar(int id, Serie entidade)
         {
             listaSerie[id] = entidade;
@@ -24,6 +24,11 @@ namespace guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Repositorio
 
         public List<Serie> Lista()
         {
+            List<Serie> listaSerie = new List<Serie>();
+            if(listaSerie == null)
+            {
+                return null;
+            }
             return listaSerie;
         }
 

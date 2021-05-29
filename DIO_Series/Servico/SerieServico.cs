@@ -9,6 +9,10 @@ namespace DIO_Series.Servico
     {
         private readonly IRepositorio<Serie> _repositorio;
 
+        public SerieServico()
+        {
+        }
+
         public SerieServico(IRepositorio<Serie> repositorio)
         {
             _repositorio = repositorio;
