@@ -84,7 +84,7 @@ namespace DIO_Series.Servico
             }
             else
             {
-               return new RetornoGenerico("Serie obtida com sucesso", true, null); 
+               return new RetornoGenerico("Serie obtida com sucesso", true, verificarSerie); 
             }
         }
     }

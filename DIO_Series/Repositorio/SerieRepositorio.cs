@@ -24,11 +24,6 @@ namespace guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Repositorio
 
         public List<Serie> Lista()
         {
-            List<Serie> listaSerie = new List<Serie>();
-            if(listaSerie == null)
-            {
-                return null;
-            }
             return listaSerie;
         }
 
