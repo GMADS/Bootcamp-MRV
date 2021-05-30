@@ -1,23 +1,18 @@
 using DIO_Series.Dominio.Interfaces;
 using DIO_Series.Dominio.Util;
-using guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Dominio.Interfaces;
+using guilh.OneDrive.Documentos.BootCamp_MRV.DIO_Series.Repositorio;
 using guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Entidade;
 
 namespace DIO_Series.Servico
 {
     public class SerieServico : IServico
     {
-        private readonly IRepositorio<Serie> _repositorio;
+        // private readonly IRepositorio<Serie> _repositorio;
+
+        static SerieRepositorio _repositorio = new SerieRepositorio();
 
         public SerieServico()
-        {
-        }
-
-        public SerieServico(IRepositorio<Serie> repositorio)
-        {
-            _repositorio = repositorio;
-            
-        }
+        {}
         public RetornoGenerico Atualizar(int id, Serie entidade)
         {
             var verificarSerie = _repositorio.RetornarPorId(id);

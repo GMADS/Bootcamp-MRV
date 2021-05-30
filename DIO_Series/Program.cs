@@ -1,5 +1,4 @@
 ﻿using System;
-using DIO_Series.Dominio.Interfaces;
 using DIO_Series.Servico;
 using guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Entidade;
 using guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Enum;
@@ -95,6 +94,8 @@ namespace DIO_Series
 						Console.Write("Digite o id da série: ");
 						var idSerie = int.Parse(Console.ReadLine());
 
+						Console.WriteLine($"Você tem certeza que deseja exluir a série{_servico.RetornarPorId(idSerie).Objeto}");
+			
 						var excluirSerie = _servico.Excluir(idSerie);
 						Console.WriteLine(excluirSerie.Mensagem);
                         break;
