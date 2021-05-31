@@ -24,6 +24,7 @@ namespace guilh.OneDrive.Documentos.BootCamp_MRV.Dominio.Entidade
         public override string ToString()
         {
             string retorno = "";
+            retorno += "Id" + this.Id + Environment.NewLine;
             retorno += "Genero:" + this.Genero + Environment.NewLine;
             retorno += "Titulo:" + this.Titulo + Environment.NewLine;
             retorno += "Descricao:" + this.Descricao + Environment.NewLine;
