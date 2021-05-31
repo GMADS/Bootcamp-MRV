@@ -52,10 +52,10 @@ namespace DIO_Series
 
                             Console.Write("Digite o Ano de Início da Série: ");
                             var confirmaEntradaAno = int.Parse(Console.ReadLine());
-                            if (confirmaEntradaAno == 0)
+                            if (confirmaEntradaAno > DateTime.Today.Year)
                             {
-                                Console.WriteLine("Você digitou uma oção errada, tente novamente");
-                                opcaoUsuario = ObterOpcaoUsuario();
+                                Console.WriteLine("Você digitou uma data do futuro");
+                                break;
                             }
                             int entradaAno = confirmaEntradaAno;
 
@@ -90,6 +90,11 @@ namespace DIO_Series
 
                             Console.Write("Digite o Ano de Início da Série: ");
                             int entradaDeAno = int.Parse(Console.ReadLine());
+                            if(entradaDeAno > DateTime.Today.Year)
+                            {
+                                Console.WriteLine("Você digitou um ano do futuro");
+                                break;
+                            }
 
                             Console.Write("Digite a Descrição da Série: ");
                             string entradaDaDescricao = Console.ReadLine();
@@ -116,13 +121,12 @@ namespace DIO_Series
 
                             if (confirmaExclusao.ToUpper() == "S")
                             {
-                                opcaoUsuario = ObterOpcaoUsuario();
+                                var excluirSerie = _servico.Excluir(idSerie);
+                                Console.WriteLine(excluirSerie.Mensagem);                                
                                 break;
                             }
                             else
-                            {
-                                var excluirSerie = _servico.Excluir(idSerie);
-                                Console.WriteLine(excluirSerie.Mensagem);
+                            {                                
                                 break;
                             }
 
