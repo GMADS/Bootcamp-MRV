@@ -9,6 +9,7 @@ namespace DIO_Series
     class Program
     {
         static SerieServico _servico = new SerieServico();
+        
         static void Main(string[] args)
         {
             string opcaoUsuario = ObterOpcaoUsuario();

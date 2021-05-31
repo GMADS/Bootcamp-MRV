@@ -7,8 +7,6 @@ namespace DIO_Series.Servico
 {
     public class SerieServico : IServico
     {
-        // private readonly IRepositorio<Serie> _repositorio;
-
         static SerieRepositorio _repositorio = new SerieRepositorio();
 
         public SerieServico()
